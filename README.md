@@ -2,11 +2,13 @@
 
 ## Week 01
 
-Description of what you have done in the week 01
+In our first Bootcamp week we were working on our first Figma web page sketch.
 
 ## Week 02
 
-Description of what you have done in the week 02
+On the second week we were asigned to work individualy and make an html archive containing all the semantic tags strucure of the fisrt week landind page.
+
+Also learning and practicing git, github and console commands
 
 ## Authors
 
