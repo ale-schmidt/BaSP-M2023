@@ -7,105 +7,95 @@
     <title>Week 2 HTML Project</title>
   </head>
   <body>
+    <header><img src="../assets/images/headerImage.PNG" alt="Logo" /></header>
     <aside>
-      <img src="../assets/images/mainLogo.png" alt="Logo" />
+      <p>Home</p>
+      <p>Sign Up</p>
+      <p>Login</p>
+      <p>Contact</p>
+      <p>Get in touch</p>
 
-      <a id="homeLink" href="">Home</a>
-      <a id="singUpLink" href="">Sign Up</a>
-      <a id="loginLink" href="">Login</a>
-      <a id="contactLink" href="">Contact</a>
-      <a id="getInTouchLink" href="">Get in touch</a>
+      <img src="../assets/images/mailIcon.png" alt="mailLogo" /><a
+        href="mailLink"
+        >RocketSA@gmail.com</a
+      >
 
-      <div>
-        <img src="../assets/images/mailIcon.png" alt="mailLogo" /><a
-          href="mailLink"
-          >RocketSA@gmail.com</a
-        >
-      </div>
+      <img src="../assets/images/phoneIcon.png" alt="phoneLogo" /><a
+        href="phoneLink"
+        >(000) 000-000000</a
+      >
 
-      <div>
-        <img src="../assets/images/phoneIcon.png" alt="phoneLogo" /><a
-          href="phoneLink"
-          >(000) 000-000000</a
-        >
-      </div>
-
-      <div>
-        <img src="../assets/images/houseIcon.png" alt="addressLogo" /><a
-          href="adressLink"
-          >Somewhere -Zeballos 1410
-        </a>
-      </div>
+      <img src="../assets/images/houseIcon.png" alt="addressLogo" /><a
+        href="adressLink"
+        >Somewhere -Zeballos 1410
+      </a>
     </aside>
 
     <main>
-      <div id="mainInfo">
-        <h1 id="mainTitle">MegaRocket GYM</h1>
-        <h3 id="mainSubtitle">Launch your fitness journey with MegaRocket</h3>
-        <p id="mainText">
-          Welcome to Megarocket SA, where we believe in creating a holistic
-          approach to fitness. Our gym is a state-of-the-art facility that
-          caters to all your fitness needs. Whether you're looking to build
-          muscle, increase flexibility, or simply stay healthy, we have
-          everything you need to reach your goals. Our gym is equipped with the
-          latest fitness equipment, including cardio machines, weightlifting
-          equipment, and functional training areas. We also offer personalized
-          training programs tailored to your specific fitness goals, whether
-          you're a beginner or a seasoned athlete. At Megarocket SA, we believe
-          that fitness is a lifestyle, not just a hobby. Join us today and start
-          your journey towards a healthier, happier you.
-        </p>
-        <img src="../assets/images/gym1.png" alt="mainImg" />
-      </div>
+      <!-- usar section y dentro articles en lugar de divs , sacar también todos los id, que los párrafos no exedan los 120 caracteres-->
+      <section>
+        <article>
+          <h1>MegaRocket GYM</h1>
+          <h3 id="mainSubtitle">Launch your fitness journey with MegaRocket</h3>
+          <p id="mainText">
+            Welcome to Megarocket SA, where we believe in creating a holistic
+            approach to fitness. Our gym is a state-of-the-art facility that
+            caters to all your fitness needs. Whether you're looking to build
+            muscle, increase flexibility, or simply stay healthy, we have
+            everything you need to reach your goals. Our gym is equipped with
+            the latest fitness equipment, including cardio machines,
+            weightlifting equipment, and functional training areas. We also
+            offer personalized training programs tailored to your specific
+            fitness goals, whether you're a beginner or a seasoned athlete. At
+            Megarocket SA, we believe that fitness is a lifestyle, not just a
+            hobby. Join us today and start your journey towards a healthier,
+            happier you.
+          </p>
+          <img src="../assets/images/gym1.png" alt="mainImg" />
+        </article>
+      </section>
 
-      <div id="meetUs">
+      <section>
         <h2>Meet us</h2>
-
-        <div id="meetUsCard">
+        <article>
           <img src="../assets/images/meetUs1.png" alt="meetUsLogo1" />
           <h3>Book an appointment</h3>
           <p>Book your turn for a visit, come and meet us!</p>
-        </div>
-
-        <div id="meetUsCard">
+        </article>
+        <article>
           <img src="../assets/images/meetUs2.png" alt="meetUsLogo2" />
           <h3>Attention schedule</h3>
           <p>You will find all our schedules, adapted to your needs.</p>
-        </div>
-
-        <div id="meetUsCard">
+        </article>
+        <article>
           <img src="../assets/images/meetUs3.png" alt="meetUsLogo3" />
           <h3>Membership management</h3>
           <p>
             Here you can manage your membership, we have a variety of them, take
             a look in the GYM section below.
           </p>
-        </div>
-
-        <div id="meetUsCard">
+        </article>
+        <article>
           <img src="../assets/images/meetUs4.png" alt="meetUsLogo4" />
           <h3>Contact form & suggestions</h3>
           <p>Write to us, our team will always be willing to listen to you!</p>
-        </div>
-      </div>
+        </article>
+      </section>
 
-      <div id="contactUs">
-        <h2>Contact us</h2>
+      <section>
+        <article>
+          <h2>Contact us</h2>
 
-        <form action="">
-          <div>
+          <form action="">
             <label>Name</label>
             <input type="text" placeholder="Name" />
-          </div>
-          <div>
+
             <label>Last Name</label>
             <input type="text" placeholder="Last Name" />
-          </div>
-          <div>
+
             <label>Email</label>
             <input type="text" placeholder="Email" />
-          </div>
-          <div>
+
             <label for="">Motive</label>
             <input
               checked
@@ -128,20 +118,19 @@
             >
             <input type="checkbox" id="claim" name="claim" value="claim" />
             <label for="vehicle3"> I want to make a claim.</label>
-          </div>
-          <div>
+
             <label>Message</label>
             <textarea placeholder="Message..." name="Message"></textarea>
-          </div>
-          <input type="submit" value="SEND MESSAGE" />
-          <button>RESET</button>
-        </form>
-      </div>
 
-      <div id="aboutUs">
-        <div id="aboutUsMain">
+            <input type="submit" value="SEND MESSAGE" />
+            <button>RESET</button>
+          </form>
+        </article>
+      </section>
+
+      <section>
+        <article>
           <h2>About us</h2>
-
           <p>
             Megarocket SA gym was founded in 1995 by a former Olympic athlete
             named Max Strong. Max had always been passionate about fitness and
@@ -154,11 +143,9 @@
             passionate about fitness. Max continued to run the gym until he
             retired in 2020.
           </p>
-        </div>
-
-        <div id="ourThoughts">
+        </article>
+        <article>
           <h3>Our thoughts</h3>
-
           <img src="../assets/images/gym2.png" alt="ourThoughtsImg2" />
           <p>
             At Megarocket SA, we believe that fitness is not just a hobby, it's
@@ -170,23 +157,20 @@
             why we offer a wide range of classes and services to cater to every
             individual's unique needs and preferences.
           </p>
-        </div>
-
-        <div id="weAreFamily">
+        </article>
+        <article>
           <h3>We are a family</h3>
-
           <img src="../assets/images/gym3.png" alt="weAreFamilyImg3" />
           <p>
             We're not just a gym - we're a family. At Megarocket SA, you'll find
             a supportive and welcoming community that will keep you motivated
             and inspired to reach your goals.
           </p>
-        </div>
-      </div>
-
-      <div id="gymSection">
+        </article>
+      </section>
+      <section>
         <h2>GYM Section</h2>
-        <div id="gymSectionCard">
+        <article>
           <h3>Activities</h3>
           <ol>
             <li>Crossfit</li>
@@ -194,8 +178,8 @@
             <li>Box</li>
             <li>Musculation</li>
           </ol>
-        </div>
-        <div id="gymSectionCard">
+        </article>
+        <article>
           <h3>Black Membership</h3>
           <ol>
             <li>Free access to musculation room.</li>
@@ -203,25 +187,24 @@
             <li>Personalized follow up with a trainer.</li>
             <li>Grid visualization.</li>
           </ol>
-        </div>
-        <div id="gymSectionCard">
+        </article>
+        <section>
           <h3>Classic Membership</h3>
           <ol>
             <li>Free access to musculation room.</li>
             <li>Personalized follow up with a trainer.</li>
             <li>Grid visualization</li>
           </ol>
-        </div>
-        <div id="gymSectionCard">
+        </section>
+        <section>
           <h3>Only classes membership</h3>
           <ol>
             <li>Free access to classes with pre-inscription.</li>
             <li>Grid visualization</li>
           </ol>
-        </div>
-      </div>
+        </section>
+      </section>
     </main>
-
     <footer>
       <img src="../assets/images/twitterIcon.png" alt="Twitter" />
       <img src="../assets/images/InstagramIcon.png" alt="Instagram" />
