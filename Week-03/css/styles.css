@@ -125,6 +125,8 @@ table {
 
 /* /////////////////// */
 
+/* header section */
+
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -157,6 +159,9 @@ header {
   top: 50%;
   transform: translateY(-50%);
 }
+
+/* aside section */
+
 aside {
   background-color: #373867;
   height: 100vh;
@@ -171,7 +176,6 @@ aside {
 #aside-logo-2 {
   text-align: center;
 }
-
 #img-aside-01 {
   height: 45px;
   width: 45px;
@@ -181,13 +185,36 @@ aside {
   width: 124px;
 }
 
+#ul-1 {
+  margin-top: 50px;
+}
+
+#home-menu-list {
+  border-bottom: 2px solid #c4c4c4;
+  width: 172px;
+  padding-bottom: 22px;
+}
+#singup-menu-list {
+  border-bottom: 2px solid #c4c4c4;
+  width: 172px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+}
+#login-menu-list {
+  border-bottom: 2px solid #c4c4c4;
+  width: 172px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+}
+#contact-menu-list {
+  padding-top: 22px;
+}
 .li-1 {
   font-family: Roboto;
   font-size: 35px;
   font-weight: 700;
   line-height: 41px;
   color: #c4c4c4;
-  border-bottom: 2px solid #c4c4c4;
   text-decoration: none;
   padding-bottom: 22px;
   width: 172px;
@@ -197,10 +224,17 @@ ul {
   margin-left: 26px;
 }
 
+/* main section */
+
 main {
   width: 80%;
   margin-left: 316px;
   margin-top: 62px;
+}
+
+.section-line {
+  border-bottom: 4px solid #d9d9d9;
+  height: 600px;
 }
 
 #text-first-section {
@@ -256,7 +290,58 @@ main {
   line-height: 21px;
 }
 
-#first-section {
-  border-bottom: 4px solid #d9d9d9;
-  height: 600px;
+/* meet us section */
+#meet-us-section {
+  height: 500px;
+}
+
+.meet-us-img {
+  height: 150px;
+  width: 150px;
+}
+
+.generic-title {
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 40px;
+  color: #2f3058;
+  margin-top: 88px;
+}
+
+.meet-us-section-subt {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #373867;
+  /* position: relative;
+  bottom: 200px; */
+}
+.meet-us-section-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #979797;
+}
+#meet-us-section article {
+  display: inline-block;
+  width: 500px;
+}
+#meet-us-section article:nth-child(5) {
+  position: relative;
+  bottom: 50px;
+}
+#meet-us-section p,
+#meet-us-section h3 {
+  position: relative;
+  left: 170px;
+  bottom: 140px;
+}
+#meet-us-section p {
+  width: 300px;
+}
+#meet-us-title {
+  margin-bottom: 100px;
 }

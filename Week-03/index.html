@@ -25,11 +25,11 @@
         />
       </div>
 
-      <ul>
-        <li><a class="li-1" href="#">Home</a></li>
-        <li><a class="li-1" href="#">Sign Up</a></li>
-        <li><a class="li-1" href="#">Login</a></li>
-        <li>
+      <ul id="ul-1">
+        <li id="home-menu-list"><a class="li-1" href="#">Home</a></li>
+        <li id="singup-menu-list"><a class="li-1" href="#">Sign Up</a></li>
+        <li id="login-menu-list"><a class="li-1" href="#">Login</a></li>
+        <li id="contact-menu-list">
           Contact <img src="../assets/images/arrow.svg" alt="arrow" />
           <ul>
             <li>Get in touch</li>
@@ -69,7 +69,7 @@
       />
     </header>
     <main>
-      <section id="first-section">
+      <section class="section-line">
         <div id="text-first-section">
           <h1 id="main-title1"><spam id="main-title2">Mega</spam>Rocket GYM</h1>
           <h3 id="main-subtitle">
@@ -103,35 +103,57 @@
           <img src="../assets/images/gym1.png" alt="mainImg" />
         </div>
       </section>
-      <section>
-        <h2>Meet us</h2>
+
+      <section id="meet-us-section" class="section-line">
+        <h2 id="meet-us-title" class="generic-title">Meet us</h2>
         <article>
-          <img src="../assets/images/meetUs1.png" alt="meetUsLogo1" />
-          <h3>Book an appointment</h3>
-          <p>Book your turn for a visit, come and meet us!</p>
+          <img
+            class="meet-us-img"
+            src="../assets/images/meet-us1.png"
+            alt="meetUsLogo1"
+          />
+          <h3 class="meet-us-section-subt">Book an appointment</h3>
+          <p class="meet-us-section-text">
+            Book your turn for a visit, come and meet us!
+          </p>
         </article>
         <article>
-          <img src="../assets/images/meetUs2.png" alt="meetUsLogo2" />
-          <h3>Attention schedule</h3>
-          <p>You will find all our schedules, adapted to your needs.</p>
+          <img
+            class="meet-us-img"
+            src="../assets/images/meet-us2.png"
+            alt="meetUsLogo2"
+          />
+          <h3 class="meet-us-section-subt">Attention schedule</h3>
+          <p class="meet-us-section-text">
+            You will find all our schedules, adapted to your needs.
+          </p>
         </article>
         <article>
-          <img src="../assets/images/meetUs3.png" alt="meetUsLogo3" />
-          <h3>Membership management</h3>
-          <p>
+          <img
+            class="meet-us-img"
+            src="../assets/images/meet-us3.png"
+            alt="meetUsLogo3"
+          />
+          <h3 class="meet-us-section-subt">Membership management</h3>
+          <p class="meet-us-section-text">
             Here you can manage your membership, we have a variety of them, take
             a look in the GYM section below.
           </p>
         </article>
         <article>
-          <img src="../assets/images/meetUs4.png" alt="meetUsLogo4" />
-          <h3>Contact form & suggestions</h3>
-          <p>Write to us, our team will always be willing to listen to you!</p>
+          <img
+            class="meet-us-img"
+            src="../assets/images/meet-us4.png"
+            alt="meetUsLogo4"
+          />
+          <h3 class="meet-us-section-subt">Contact form & suggestions</h3>
+          <p class="meet-us-section-text">
+            Write to us, our team will always be willing to listen to you!
+          </p>
         </article>
       </section>
-
-      <section>
-        <h2>Contact us</h2>
+      <section class="section-line">
+        <h2 class="generic-title">Contact us</h2>
         <form action="">
           <label>Name</label>
           <input type="text" placeholder="Name" />
@@ -168,9 +190,9 @@
           <button>RESET</button>
         </form>
       </section>
-      <section>
+      <section class="section-line">
         <article>
-          <h2>About us</h2>
+          <h2 class="generic-title">About us</h2>
           <p>
             Megarocket SA gym was founded in 1995 by a former Olympic athlete
             named Max Strong. Max had always been passionate about fitness and
