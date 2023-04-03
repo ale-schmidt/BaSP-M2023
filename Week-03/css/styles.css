@@ -291,8 +291,9 @@ main {
 }
 
 /* meet us section */
+
 #meet-us-section {
-  height: 500px;
+  height: 700px;
 }
 
 .meet-us-img {
@@ -328,6 +329,7 @@ main {
 #meet-us-section article {
   display: inline-block;
   width: 500px;
+  margin-bottom: 8px;
 }
 #meet-us-section article:nth-child(5) {
   position: relative;
