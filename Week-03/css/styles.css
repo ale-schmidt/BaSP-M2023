@@ -295,7 +295,6 @@ main {
 #meet-us-section {
   height: 700px;
 }
-
 .meet-us-img {
   height: 150px;
   width: 150px;
@@ -322,14 +321,16 @@ main {
 .meet-us-section-text {
   font-family: Roboto;
   font-size: 18px;
-  font-weight: 500;
+  /* font-weight: 500; */
+  font-weight: 490;
   line-height: 21px;
   color: #979797;
 }
 #meet-us-section article {
   display: inline-block;
   width: 500px;
-  margin-bottom: 8px;
+  margin-bottom: 42px;
+  margin-right: 42px;
 }
 #meet-us-section article:nth-child(5) {
   position: relative;
@@ -347,6 +348,68 @@ main {
 }
 #meet-us-title {
   margin-bottom: 100px;
+}
+/* about us section */
+
+#bout-us-section {
+  height: 1500px;
+}
+
+/* gym section */
+
+#gym-section {
+  height: 900px;
+}
+#gym-section article {
+  display: inline-block;
+  border: 2px solid #49a37b;
+  box-shadow: 0px 0px 5px 1px #49a37b;
+  padding: 30px 30px 30px 30px;
+  height: 132px;
+  width: 467px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 8px;
+  position: relative;
+}
+
+#gym-section article:nth-child(3) {
+  position: relative;
+  left: 65px;
+  top: 0px;
+}
+#gym-section article:nth-child(4) {
+  position: relative;
+  /* left: 45px; */
+  top: 120px;
+}
+#gym-section article:nth-child(5) {
+  position: relative;
+  left: 65px;
+  top: 95px;
+}
+#gym-section h3 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #373867;
+  margin-top: -20px;
+}
+#gym-section ol {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #373867;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#gym-section-title {
+  margin-bottom: 100px;
+  /* display: block; */
 }
 
 /* footer section */
