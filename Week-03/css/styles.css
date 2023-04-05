@@ -1,136 +1,8 @@
-/* html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-} */
-/* HTML5 display-role reset for older browsers */
-/* article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-} */
-
-/* /////////////////// */
-
 /* header section */
 
 header {
   position: -webkit-sticky;
   position: sticky;
-  /* position: fixed; */
   top: 0;
   background-color: #373867;
   height: 116px;
@@ -183,11 +55,9 @@ aside {
   height: 32px;
   width: 124px;
 }
-
 #ul-1 {
   margin-top: 50px;
 }
-
 #home-menu-list {
   border-bottom: 2px solid #c4c4c4;
   width: 172px;
@@ -206,7 +76,27 @@ aside {
   padding-top: 22px;
 }
 #contact-menu-list {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 19px;
   padding-top: 22px;
+  color: #46a37c;
+}
+#arrow-img {
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+}
+#get-in-menu-list {
+  padding-top: 22px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #46a37c;
+  border-bottom: 2px solid #46a37c;
+  width: 90px;
 }
 .li-1 {
   font-family: Roboto;
@@ -215,10 +105,38 @@ aside {
   line-height: 41px;
   color: #c4c4c4;
   text-decoration: none;
-  padding-bottom: 22px;
-  width: 172px;
 }
-
+.li-2 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #c4c4c4;
+  margin-top: 30px;
+}
+.li-2 p {
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+}
+#mail-menu-list {
+  border-bottom: 2px solid #c4c4c4;
+  width: 197px;
+  padding-bottom: 10px;
+}
+#phone-menu-list {
+  border-bottom: 2px solid #c4c4c4;
+  width: 197px;
+  padding-bottom: 10px;
+}
+#address-menu-list {
+  border-bottom: 2px solid #c4c4c4;
+  width: 197px;
+  padding-bottom: 10px;
+}
 ul {
   margin-left: 26px;
 }
@@ -230,18 +148,15 @@ main {
   margin-left: 316px;
   margin-top: 62px;
 }
-
 .section-line {
   border-bottom: 4px solid #d9d9d9;
   height: 600px;
 }
-
 #text-first-section {
   display: inline-block;
   height: 139.52830505371094px;
   width: 512px;
 }
-
 #main-text {
   margin-top: 34px;
   height: 459px;
@@ -272,7 +187,6 @@ main {
   line-height: 70px;
   color: #626380;
 }
-
 #main-subtitle {
   font-family: Roboto;
   font-size: 25px;
@@ -281,7 +195,6 @@ main {
   color: #2f3058;
   margin-top: 25px;
 }
-
 .main-text {
   font-family: Roboto;
   font-size: 18px;
@@ -298,7 +211,6 @@ main {
   height: 150px;
   width: 150px;
 }
-
 .generic-title {
   font-family: Roboto;
   font-size: 34px;
@@ -307,7 +219,6 @@ main {
   color: #2f3058;
   margin-top: 88px;
 }
-
 .meet-us-section-subt {
   font-family: Roboto;
   font-size: 25px;
@@ -318,7 +229,6 @@ main {
 .meet-us-section-text {
   font-family: Roboto;
   font-size: 18px;
-  /* font-weight: 500; */
   font-weight: 490;
   line-height: 21px;
   color: #979797;
@@ -346,12 +256,162 @@ main {
 #meet-us-title {
   margin-bottom: 100px;
 }
+
+/* contact us section */
+
+.contact-us-section {
+  position: relative;
+  height: 800px;
+}
+.contact-us-section h2 {
+  position: absolute;
+  top: 50px;
+  margin-top: 20px;
+}
+.contact-us-section form {
+  position: absolute;
+  top: 200px;
+  width: 1270px;
+}
+.label-title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #373867;
+  display: block;
+}
+.form-section {
+  height: 400px;
+  width: 1100px;
+}
+.motive-checkbox {
+  margin-top: 6px;
+}
+.name-input {
+  display: inline-block;
+  width: 600px;
+}
+.motive-input {
+  display: inline-block;
+  width: 800px;
+  position: absolute;
+  bottom: 146px;
+  left: 0;
+}
+.motive-input p {
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+.motive-input input {
+  display: inline-block;
+}
+.email-input {
+  display: inline-block;
+  width: 600px;
+  position: absolute;
+  bottom: 264px;
+  left: 0;
+}
+.name-input label {
+  position: relative;
+  bottom: 10px;
+}
+.email-input label {
+  position: relative;
+  bottom: 10px;
+}
+.last-name-input {
+  display: inline-block;
+  width: 600px;
+}
+.last-name-input label {
+  position: relative;
+  bottom: 10px;
+}
+.last-name-input input {
+  width: 400px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  font-family: roboto;
+  font-size: 10px;
+  height: 18px;
+}
+.name-input input {
+  width: 400px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  font-family: roboto;
+  font-size: 10px;
+  height: 18px;
+}
+.email-input input {
+  width: 400px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  font-family: roboto;
+  font-size: 10px;
+  height: 18px;
+}
+.message-input {
+  display: inline-block;
+  width: 600px;
+  position: absolute;
+  top: 280px;
+  left: 0;
+}
+.message-input textarea {
+  position: relative;
+  top: 20px;
+  width: 1000px;
+  height: 150px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  font-family: roboto;
+}
+.buttons {
+  width: 1000px;
+  text-align: right;
+  position: absolute;
+  top: 512px;
+  left: 0px;
+}
+.button-send {
+  width: 148px;
+  height: 42px;
+  background: #373867;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  margin-right: 21px;
+}
+.button-send:hover {
+  background-color: #6263af;
+}
+.button-reset {
+  font-size: 14px;
+  font-weight: 500;
+  width: 131px;
+  height: 42px;
+  background: #fff;
+  border-radius: 5px;
+  color: #373867;
+  border: 1px solid #373867;
+}
+.button-reset:hover {
+  background-color: #46a37c;
+  color: #ffffff;
+  border: none;
+}
+
 /* about us section */
 
 #about-us-title {
   margin-bottom: 30px;
 }
-
 #bout-us-section {
   height: 970px;
 }
@@ -369,7 +429,6 @@ main {
   line-height: 35px;
   color: #373867;
 }
-
 #bout-us-section-p-1 {
   position: relative;
   top: 30px;
@@ -378,7 +437,6 @@ main {
   position: relative;
   top: 60px;
 }
-
 #about-us-section-h3-1 {
   position: relative;
   top: 100px;
@@ -408,13 +466,12 @@ main {
   position: relative;
   bottom: 90px;
 }
-
 #bout-us-section-p-5 {
   position: relative;
   bottom: 413px;
-  /* left: 287px; */
   width: 660px;
 }
+
 /* gym section */
 
 #gym-section {
@@ -434,7 +491,6 @@ main {
   border-radius: 8px;
   position: relative;
 }
-
 #gym-section article:nth-child(3) {
   position: relative;
   left: 65px;
@@ -485,14 +541,12 @@ footer {
   font-weight: 400;
   line-height: 19px;
 }
-
 footer img {
   position: relative;
   top: 15px;
   margin-left: 10px;
   margin-right: 10px;
 }
-
 #footer-text {
   position: relative;
   top: 25px;
