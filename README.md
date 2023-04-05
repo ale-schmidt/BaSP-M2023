@@ -14,6 +14,16 @@ Here you can check out the github respository: https://github.com/ale-schmidt/Ba
 
 And please feel free to put an eye on it and clone it to your local machine: git clone
 
+## Week 03
+
+On the third week we were asigned to work individualy as well as the second week and develope a css archive containing all the styles details about the fisrt week landind page proyect.
+
+Workink, paying attention and learning specially about the position relative and absolute propierties.
+
+Here you can check out the github respository: https://github.com/ale-schmidt/BaSP-M2023
+
+And please feel free to put an eye on it and clone it to your local machine: git clone
+
 ## Authors
 
 - Alejandro Schmidt
