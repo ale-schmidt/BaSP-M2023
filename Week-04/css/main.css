@@ -508,8 +508,8 @@ main {
     font-size: 25px;
   }
   .img-first-section {
-    height: 484px;
-    width: 596px;
+    height: 344px;
+    width: 450px;
     bottom: 467px;
     left: 547px;
     border-radius: 22px;
@@ -525,7 +525,7 @@ main {
   }
   .img-subt-text {
     height: 735px;
-    width: 500px;
+    width: 1050px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -540,5 +540,19 @@ main {
     line-height: 40px;
     color: #2f3058;
     margin-top: 88px;
+  }
+  .subt-text-div {
+    height: 440px;
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main-text-section {
+    width: 515px;
+  }
+  .main-text-div {
+    justify-content: flex-start;
   }
 }
