@@ -116,6 +116,14 @@ main {
 }
 
 /* meet us section */
+#meet-us-section {
+  height: 780px;
+}
+.meet-us-section-flex {
+  display: flex;
+  flex-direction: column;
+}
+
 #meet-us-title {
   margin-bottom: 100px;
   font-family: Roboto;
@@ -125,13 +133,16 @@ main {
   color: #2f3058;
   margin-top: 88px;
 }
-
-#meet-us-section {
-  height: 1400px;
+.text-div {
+  max-width: 278px;
 }
 .meet-us-img {
-  height: 150px;
-  width: 150px;
+  height: 91px;
+  width: 91px;
+}
+
+.meet-us-section-text {
+  width: 70%;
 }
 #generic-title {
   font-family: Roboto;
@@ -143,28 +154,27 @@ main {
 }
 .meet-us-section-subt {
   font-family: Roboto;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 29px;
   color: #373867;
 }
 .meet-us-section-text {
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 490;
   line-height: 21px;
   color: #979797;
 }
-#meet-us-section p {
-  width: 300px;
-  margin-top: 15px;
-}
+
 #meet-us-section article {
   display: inline-block;
-  width: 482px;
+  width: 390px;
   margin-bottom: 42px;
   margin-right: 42px;
   display: flex;
+
+  justify-content: space-between;
 }
 /* #meet-us-section article:nth-child(5) {
   position: relative;
@@ -452,9 +462,9 @@ main {
   margin-top: 88px;
 }
 
-@media (min-width: 601px) {
+/* @media (min-width: 601px) {
   .main-container {
-    /* padding-left: 244px; */
+   
     width: 100%;
   }
   .text-img-first-section {
@@ -475,7 +485,7 @@ main {
     height: 275px;
     display: flex;
     justify-content: center;
-    /* text-align: center  ; */
+    
   }
 
   .img-first-section {
@@ -483,7 +493,7 @@ main {
     width: 306px;
     order: -3;
   }
-}
+} */
 
 @media (min-width: 1024px) {
   .main-container {
@@ -551,8 +561,50 @@ main {
 
   .main-text-section {
     width: 515px;
+    text-align: left;
   }
   .main-text-div {
     justify-content: flex-start;
+  }
+  #meet-us-title {
+    font-size: 34px;
+  }
+  .meet-us-img {
+    height: 150px;
+    width: 150px;
+  }
+  .meet-us-section-subt {
+    font-size: 25px;
+  }
+  .meet-us-section-text {
+    font-size: 18px;
+    margin-top: 14px;
+    width: 80%;
+  }
+  #meet-us-section {
+    height: 900px;
+    width: 1015px;
+  }
+  #meet-us-section article {
+    width: 465px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .text-div {
+    max-width: 100%;
+    order: 1;
+    margin-left: 15px;
+  }
+  .meet-us-section-flex {
+    width: 100%;
+    height: 60%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section-text {
+    width: 45%;
   }
 }

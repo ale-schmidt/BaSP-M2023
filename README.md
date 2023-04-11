@@ -24,6 +24,10 @@ Here you can check out the github respository: https://github.com/ale-schmidt/Ba
 
 And please feel free to put an eye on it and clone it to your local machine: git clone
 
+## Week 04
+
+https://ale-schmidt.github.io/BaSP-M2023/Week-04/
+
 ## Authors
 
 - Alejandro Schmidt
