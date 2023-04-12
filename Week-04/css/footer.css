@@ -26,13 +26,8 @@ footer img {
   display: flex;
   justify-content: center;
 }
-@media (min-width: 600px) {
+@media (min-width: 390px) {
   footer {
     margin-left: 0;
-  }
-}
-@media (min-width: 1024px) {
-  footer {
-    /* margin-left: 243px; */
   }
 }

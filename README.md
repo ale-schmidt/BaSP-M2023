@@ -26,6 +26,12 @@ And please feel free to put an eye on it and clone it to your local machine: git
 
 ## Week 04
 
+On this week we were working on our responsive css files using and learning the flex box tool for the landing page we were working before.
+
+For personal reasons and lack of time I could only work on some specific sections of the project. Also having in mind that I chose mobile and desktop resolutionios considerind both of them are the most difrent meanwhile the tablet size is similar to mobile resolution.
+
+Here you can check out the git hub pages version of the work done:
+
 https://ale-schmidt.github.io/BaSP-M2023/Week-04/
 
 ## Authors

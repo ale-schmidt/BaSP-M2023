@@ -38,9 +38,6 @@ header {
 }
 
 @media (min-width: 1024px) {
-  header {
-    /* margin-left: 243px; */
-  }
   #header-logos {
     width: 100%;
     display: flex;
