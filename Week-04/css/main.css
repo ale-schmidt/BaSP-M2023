@@ -12,10 +12,7 @@ main {
 .main-section {
   height: 2000px;
 }
-/* .section-line {
-  border-bottom: 4px solid #d9d9d9;
-  height: 1400px;
-} */
+
 .text-img-first-section {
   margin-top: 100px;
   display: inline-block;
@@ -94,19 +91,13 @@ main {
   justify-content: space-between;
 }
 .img-div {
-  /* width: 100%;
-  height: 275px; */
-  /* display: flex;
-  justify-content: center; */
   text-align: center;
 }
 .img-first-section {
   bottom: 467px;
   left: 547px;
   border-radius: 22px;
-  /* position: relative; */
   display: inline-block;
-
   height: 275px;
   width: 306px;
 }
@@ -404,16 +395,20 @@ main {
 
 /* gym section */
 
-.gym-section {
+.gym-section div {
   height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 100px;
 }
 .gym-section article {
   display: inline-block;
   border: 2px solid #49a37b;
   box-shadow: 0px 0px 5px 1px #49a37b;
   padding: 30px 30px 30px 30px;
-  height: 132px;
-  width: 467px;
+  height: 94px;
+  width: 327px;
   left: 0px;
   right: 0px;
   top: 0px;
@@ -421,23 +416,10 @@ main {
   border-radius: 8px;
   position: relative;
 }
-.gym-section article:nth-child(3) {
-  position: relative;
-  left: 65px;
-  top: 0px;
-}
-.gym-section article:nth-child(4) {
-  position: relative;
-  top: 120px;
-}
-.gym-section article:nth-child(5) {
-  position: relative;
-  left: 65px;
-  top: 95px;
-}
+
 .gym-section h3 {
   font-family: Roboto;
-  font-size: 35px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 41px;
   color: #373867;
@@ -445,17 +427,17 @@ main {
 }
 .gym-section ol {
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 23px;
   color: #373867;
-  margin-top: 20px;
+  margin-top: 0;
   margin-left: 20px;
 }
 .gym-section-title {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-family: Roboto;
-  font-size: 34px;
+  font-size: 20px;
   font-weight: 800;
   line-height: 40px;
   color: #2f3058;
@@ -516,6 +498,7 @@ main {
   }
   .main-subtitle {
     font-size: 25px;
+    margin-top: 0;
   }
   .img-first-section {
     height: 344px;
@@ -523,7 +506,6 @@ main {
     bottom: 467px;
     left: 547px;
     border-radius: 22px;
-    /* position: relative; */
     display: inline-block;
   }
   .main-text {
@@ -606,5 +588,36 @@ main {
   }
   .section-text {
     width: 45%;
+  }
+
+  .gym-section h3 {
+    font-size: 30px;
+  }
+
+  .gym-section-title {
+    font-size: 34px;
+  }
+
+  .gym-section ol {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .gym-section article {
+    height: 132px;
+    width: 350px;
+  }
+  .gym-section-title {
+    margin-bottom: 100px;
+  }
+  .gym-section div {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+
+  .gym-section {
+    height: 700px;
   }
 }
