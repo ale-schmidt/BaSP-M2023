@@ -10,7 +10,8 @@ var textMayusc = text.toUpperCase();
 
 console.log(textMayusc);
 
-// b. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).
+// b. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los primeros 5
+// caracteres guardando el resultado en una nueva variable (utilizar substring).
 
 console.log("-Ejercicio 2.b:");
 
@@ -19,7 +20,8 @@ var firstFiveText = text.substring(0, 5);
 
 console.log(firstFiveText);
 
-// c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).
+// c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3
+// caracteres guardando el resultado en una nueva variable (utilizar substring).
 
 console.log("-Ejercicio 2.c:");
 
@@ -28,7 +30,9 @@ var lastThreeText = text.substring(text.length - 3);
 
 console.log(lastThreeText);
 
-// d. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).
+// d. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra
+// en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase,
+// toLowerCase y el operador +).
 
 console.log("-Ejercicio 2.d:");
 
@@ -41,7 +45,8 @@ var capitalizedString = firstLetter.toUpperCase() + restOfWord;
 
 console.log(capitalizedString);
 
-// e. Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
+// e. Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco.
+// Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
 
 console.log("-Ejercicio 2.e:");
 
@@ -50,7 +55,10 @@ var spacePsotion = string.indexOf(" ");
 
 console.log(spacePsotion);
 
-// f. Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
+// f. Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio).
+// Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de
+// ambas palabras en mayúscula y las demás letras en minúscula
+// (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
 
 console.log("-Ejercicio 2.f:");
 

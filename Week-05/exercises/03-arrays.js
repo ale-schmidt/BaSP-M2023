@@ -1,8 +1,9 @@
 console.log("Ejercicio 3 - Arrays");
 
-// a. Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log).
+// a. Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto",
+// "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log).
 
-console.log("-Ejercicio 2.a:");
+console.log("-Ejercicio 3.a:");
 
 var meses = [
   "Enero",
@@ -24,7 +25,7 @@ console.log(meses[10]);
 
 // b. Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).
 
-console.log("-Ejercicio 2.b:");
+console.log("-Ejercicio 3.b:");
 
 var months = [
   "Enero",
@@ -47,7 +48,7 @@ console.log(months);
 
 // c. Agregar un elemento al principio y al final del array (utilizar unshift y push).
 
-console.log("-Ejercicio 2.c:");
+console.log("-Ejercicio 3.c:");
 
 var months = [
   "Enero",
@@ -71,7 +72,7 @@ console.log(months);
 
 // d. Quitar un elemento del principio y del final del array (utilizar shift y pop).
 
-console.log("-Ejercicio 2.d:");
+console.log("-Ejercicio 3.d:");
 
 var months = [
   "Element at the beginning",
@@ -99,7 +100,7 @@ console.log(lastElement);
 
 // e. Invertir el orden del array (utilizar reverse).
 
-console.log("-Ejercicio 2.e:");
+console.log("-Ejercicio 3.e:");
 
 var months = [
   "Enero",
@@ -122,7 +123,7 @@ console.log(invertedList);
 
 // f. Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
 
-console.log("-Ejercicio 2.f:");
+console.log("-Ejercicio 3.f:");
 
 var months = [
   "Diciembre",
@@ -145,7 +146,7 @@ console.log(joinedMonths);
 
 // g. Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
 
-console.log("-Ejercicio 2.g:");
+console.log("-Ejercicio 3.g:");
 
 var months = [
   "Enero",
