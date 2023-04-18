@@ -11,7 +11,6 @@ if (randomNumber >= 0.5) {
   alert("Greater than or equal to 0.5");
 } else {
   alert("Lower than 0.5");
-  s;
 }
 
 // b. Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
