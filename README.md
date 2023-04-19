@@ -36,6 +36,10 @@ https://ale-schmidt.github.io/BaSP-M2023/Week-04/
 
 ## Week 05
 
+This week we were working on our first JS excercises looking forward to uderstandand the bases and rules of the languaje. Also working on the css responsive landing page based on the feedback our teachers gave us.
+
+Here you can check out both parts of the work done this time following the next links:
+
 https://ale-schmidt.github.io/BaSP-M2023/Week-04/
 https://ale-schmidt.github.io/BaSP-M2023/Week-05/
 
