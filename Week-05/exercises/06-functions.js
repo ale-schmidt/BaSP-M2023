@@ -103,7 +103,7 @@ function valEnteros(num) {
 function llamarValEnteros(num1, num2) {
   let val1 = valEnteros(num1);
   let val2 = valEnteros(num2);
-  if (val1 === "number" && val2 === "number") {
+  if (typeof val1 == "number" && typeof val2 == "number") {
     return val1 + val2;
   }
   alert("uno de los parámetros tiene error");

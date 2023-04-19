@@ -36,6 +36,7 @@ https://ale-schmidt.github.io/BaSP-M2023/Week-04/
 
 ## Week 05
 
+https://ale-schmidt.github.io/BaSP-M2023/Week-04/
 https://ale-schmidt.github.io/BaSP-M2023/Week-05/
 
 ## Authors

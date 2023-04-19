@@ -7,7 +7,6 @@ header {
   width: 100%;
   margin-left: 0;
   z-index: 1;
-
   display: flex;
   flex-flow: row nowrap;
 }
@@ -25,10 +24,9 @@ header {
 }
 #img-header-02 {
   margin-top: 65px;
-  margin-left: -20px;
+  margin-right: 20px;
   height: 47px;
   width: 223px;
-
   transform: translateY(-50%);
 }
 #header-logos {
@@ -36,7 +34,11 @@ header {
   display: flex;
   justify-content: center;
 }
-
+@media (min-width: 601px) {
+  #header-logos {
+    justify-content: flex-start;
+  }
+}
 @media (min-width: 1024px) {
   #header-logos {
     width: 100%;
