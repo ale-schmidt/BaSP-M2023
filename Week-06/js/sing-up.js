@@ -550,7 +550,7 @@ function validatePasswords() {
 
   if (password1Value.length < 8 || !validateCharCode(password1Value)) {
     password1Input.classList.add("error");
-    password1Error.textContent = "Wrong password fromat.";
+    password1Error.textContent = "Wrong password format.";
     return false;
   }
 
