@@ -77,7 +77,7 @@ emailInput.addEventListener("focus", function () {
   emailError.textContent = "";
 });
 
-//VALIDAR CONTRASEÑA
+//VALIDAR PASSWORD
 
 function validateCharCode(passwordValue) {
   for (var i = 0; i < passwordValue.length; i++) {
