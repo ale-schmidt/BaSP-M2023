@@ -59,6 +59,12 @@ https://ale-schmidt.github.io/BaSP-M2023/Week-06/views/index.html
 
 ## Week 07
 
+This week we introduced api requests using callback functions and the fetch tool from java script, validating the login and sing up data entered against the api rules.
+
+Here you can check out the work done this time following the next link:
+
+https://ale-schmidt.github.io/BaSP-M2023/Week-07/views/index.html
+
 ## Authors
 
 - Alejandro Schmidt
