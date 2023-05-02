@@ -151,13 +151,6 @@ function emailErrorFunction() {
   }
 }
 
-/*Como mejorar estaría bueno que los mensajes de error debajo de los inputs sean más específicos.
-Por ejemplo: si la contraseña está vació el mensaje debería ser “Password is required”.
-Si tiene menos de 8 characters, el mensaje podría ser “Password must be at least 8 characters”.
-Y si tiene que tener letras y numeros, “Password must contain letters and numbers”. Por ende,
-tenemos un mensaje de error para cada caso especifico de error. (Esta sugerencia lo llevaría a
-todos los inputs tanto del login como el sign up)*/
-
 var validateInformation = function () {
   var arrayErrors = [];
   if (!nameErrorFunction()) {

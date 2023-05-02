@@ -43,7 +43,7 @@ Here you can check out both parts of the work done this time following the next 
 https://ale-schmidt.github.io/BaSP-M2023/Week-04/
 https://ale-schmidt.github.io/BaSP-M2023/Week-05/
 
-## Week 05
+## Week 06
 
 This week we started a new process, we changed teams and put into practice everything we learned in week 5. The work modality continued to be individualy.
 
