@@ -5,7 +5,12 @@ window.onload = function () {
   document.getElementById("name").value = localStorageData.data.name;
   document.getElementById("lastName").value = localStorageData.data.lastName;
   document.getElementById("dni").value = localStorageData.data.dni;
-  document.getElementById("dob").value = localStorageData.data.dob;
+
+  var newDate = localStorageData.data.dob;
+  var dateEl = newDate.split("/");
+  var newformattedDate = dateEl[2] + "-" + dateEl[0] + "-" + dateEl[1];
+
+  document.getElementById("dob").value = newformattedDate;
   document.getElementById("phone").value = localStorageData.data.phone;
   document.getElementById("address").value = localStorageData.data.address;
   document.getElementById("city").value = localStorageData.data.city;
@@ -372,7 +377,9 @@ var date = birthDateInput.value;
 
 function valDate() {
   var birthDate = new Date(birthDateInput.value);
-  if (birthDateInput.value.trim() === "") {
+  console.log(typeof birthDate);
+  // if (birthDateInput.value.trim() === "") {
+  if (Object.keys(birthDate).length === 0) {
     birthDateInput.classList.add("error");
     birthDateError.textContent = "Date of birth is required";
   } else if (isNaN(birthDate.getTime())) {
@@ -386,6 +393,27 @@ function valDate() {
     birthDateError.textContent = "";
   }
 }
+
+birthDateInput.addEventListener("change", function () {
+  valDate(date);
+});
+
+// var birthDateError = document.getElementById("birth-date-error");
+// var date = birthDateInput.value;
+// function valDate() {
+//   if (!birthDateInput.value) {
+//     return false;
+//   }
+//   var birthDate = new Date(birthDateInput.value);
+//   var currentDate = new Date();
+//   if (birthDate.getTime() >= currentDate.getTime()) {
+//     birthDateInput.classList.add("error");
+//     birthDateError.textContent = "Wrong date format.";
+//   } else {
+//     birthDateInput.classList.remove("error");
+//     birthDateError.textContent = "";
+//   }
+// }
 
 birthDateInput.addEventListener("change", function () {
   valDate(date);
