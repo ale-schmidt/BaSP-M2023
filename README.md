@@ -34,6 +34,29 @@ Here you can check out the git hub pages version of the work done:
 
 https://ale-schmidt.github.io/BaSP-M2023/Week-04/
 
+## Week 05
+
+This week we were working on our first JS excercises looking forward to uderstandand the bases and rules of the languaje. Also working on the css responsive landing page based on the feedback our teachers gave us.
+
+Here you can check out both parts of the work done this time following the next links:
+
+https://ale-schmidt.github.io/BaSP-M2023/Week-04/
+https://ale-schmidt.github.io/BaSP-M2023/Week-05/
+
+## Week 05
+
+This week we started a new process, we changed teams and put into practice everything we learned in week 5. The work modality continued to be individualy.
+
+The weekly problem consisted in developing two additional screens on the project, the ones with forms, the login and the sing up.
+
+The login section contains two fields, email and password, we had to do the validations of each one and make the link connections between HTML files.
+
+For the sing up section, validations had to be performed for the fields Name, Last name, Date of birth, Address, City, ID card, Zip Code, Email, Password and Phone Number. All validations were made with javascript.
+
+Here you can check out the work done this time following the next link:
+
+https://ale-schmidt.github.io/BaSP-M2023/Week-06/views/index.html
+
 ## Authors
 
 - Alejandro Schmidt
