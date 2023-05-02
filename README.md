@@ -57,6 +57,8 @@ Here you can check out the work done this time following the next link:
 
 https://ale-schmidt.github.io/BaSP-M2023/Week-06/views/index.html
 
+## Week 07
+
 ## Authors
 
 - Alejandro Schmidt

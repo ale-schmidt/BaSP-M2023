@@ -53,10 +53,10 @@ document
     var url = `https://api-rest-server.vercel.app/login?email=${emailInput.value}&password=${passwordInput.value}`;
 
     fetch(url)
-      .then(function (res) {
-        // if (!res.ok) throw new Error(res);
-        return res;
-      })
+      // .then(function (res) {
+      //   // if (!res.ok) throw new Error(res);
+      //   return res;
+      // })
       .then(function (res) {
         return res.json();
       })

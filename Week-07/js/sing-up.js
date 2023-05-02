@@ -378,8 +378,7 @@ var date = birthDateInput.value;
 function valDate() {
   var birthDate = new Date(birthDateInput.value);
   console.log(typeof birthDate);
-  // if (birthDateInput.value.trim() === "") {
-  if (Object.keys(birthDate).length === 0) {
+  if (birthDateInput.value.trim() === "") {
     birthDateInput.classList.add("error");
     birthDateError.textContent = "Date of birth is required";
   } else if (isNaN(birthDate.getTime())) {
